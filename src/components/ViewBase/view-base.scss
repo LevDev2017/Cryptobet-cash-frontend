@@ -1,0 +1,36 @@
+.view-base-root {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background: #041b1c;
+
+    .cubes-top {
+        opacity: 0.6;
+        position: absolute;
+        top: -120px;
+
+        p {
+            font-family: Courier;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 6px;
+            color: #FFFFFF;
+            white-space: pre-wrap;
+            user-select: none;
+        }
+    }
+
+
+    .cubes-bottom {
+        opacity: 0.5;
+        position: absolute;
+        bottom: -156px;
+        right: -40px;
+
+        img {
+            width: 500px;
+            height: 350px;
+        }
+    }
+}
